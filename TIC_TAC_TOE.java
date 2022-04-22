@@ -104,8 +104,6 @@ public class ticgame {
                System.out.println("Draw");
                t=t+1;
         }
-        // write your code here
-        }
-        // Scanner.close();
+      }
     }
 }
