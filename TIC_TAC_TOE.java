@@ -11,16 +11,11 @@ public class ticgame {
         System.out.println("---------"); 
         int[][] ar = new int[3][3];
         int c = 0;
-        for (int  i = 0; i < 3; i++) {
-            for (int j=  0; j < 3; j++) {
-                ar[i][j] = a.charAt(c);
-                c++;
-            }
-        }
         char[][] ans = new char[3][3];
          for(int i = 0; i < 3; i++) {
             for(int j=0; j < 3;j++) {
-                ans[i][j]=(char)ar[i][j];
+                ans[i][j]=(char) a.charAt(c);
+                c++;
             }
         }
         int t = 0;
